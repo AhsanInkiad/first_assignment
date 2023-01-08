@@ -1,0 +1,606 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.bg-image{
+	background-image: url(../banner1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	height: 900px;
+	width:1600p;
+}
+
+.heading {		
+	position: absolute;
+	left: 1100px;
+	top: 250px;
+
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 65px;
+	
+	text-align: right;
+	
+}
+
+.sub-heading {
+	position: absolute;
+	left: 1100px;
+	top: 510px;
+
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+
+	text-align: right;
+	
+}
+
+.button{
+	position: absolute;
+	width: 160px;
+	height: 64px;
+	left: 1407px;
+	top: 638px;
+	
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 450;
+	font-size: 20px;
+	color: white;
+	
+	background: #F15B22;
+	border-radius: 5px;
+	border: none;
+
+}
+
+.my_failure{
+	position: absolute;
+	width: 516px;
+	height: 400px;
+	left: 262px;
+	top: 693px;
+}
+
+.title{
+	position: absolute;
+	width: 288px;
+	height: 94px;
+	left: 800px;
+	top: 493px;
+
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 47px;
+
+	color: #151414;
+
+}
+
+.description{
+	position: absolute;
+	width: 450px;
+	height: 94px;
+	left: 800px;
+	top: 610px;
+
+
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+
+	color: #444343;
+
+}
+
+.list{
+	position: absolute;
+	width: 349px;
+	height: 162px;
+	left: 800px;
+	top: 725px;
+}
+ul {
+	list-style: none;
+	position: absolute;
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: #444343;
+	
+  }
+
+ul li:before {
+	content: '✓';
+	color: rgb(22, 234, 22);
+	
+
+  }
+
+ul li span {
+	margin-left: .50em;
+ }
+
+.ellipse{
+	position: absolute;
+width: 527.93px;
+height: 527.93px;
+left: 229px;
+top: 1134.37px;
+
+background: rgba(241, 91, 34, 0.2);
+border-radius: 50%;
+}
+
+.image{
+	background-image: url(../person.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	position: absolute;
+	width: 569px;
+	height: 723.3px;
+	left: 208px;
+	top: 939px;
+}
+
+
+
+.plan_title{
+	position: absolute;
+	width: 179px;
+	height: 47px;
+	left: 725px;
+	top: 1792.3px;
+
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 47px;
+	
+	color: #151414;
+}
+
+.flex_container{
+	position: absolute;
+	width: 1141px;
+	height: 299.96px;
+	left: 330px;
+	top: 1900.3px;	
+	
+	display: flex;
+	
+}
+
+.box{
+	
+	width: 291px;
+	height: 197px;
+	text-align: center;
+	
+}
+
+#smoke{
+	background-image: url(../smoke.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	position: absolute;
+	width: 92.96px;
+	height: 92.96px;
+}
+#js{
+	background-image: url(../js.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	position: absolute;
+	width: 92.96px;
+	height: 92.96px;
+}
+#wd{
+	background-image: url(../web.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	position: absolute;
+	width: 92.96px;
+	height: 92.96px;
+}
+#ec{
+	background-image: url(../ecom.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	position: absolute;
+	
+	width: 92.96px;
+	height: 92.96px;
+}
+
+#heading1{
+	position: absolute;
+	width: 291px;
+	height: 35px;
+	left: -90px;
+	top: 100px;
+
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 35px;
+	text-align: center;
+
+	
+
+	color: #151414;
+
+}
+
+#heading2{
+	position: absolute;
+	width: 291px;
+	height: 35px;
+	left: 185px;
+	top: 100px;
+	
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 35px;
+	text-align: center;
+	
+	/* Dark 01 */
+	
+	color: #151414;
+	
+	}
+#heading3{
+	position: absolute;
+	width: 291px;
+	height: 35px;
+	left: 485px;
+	top: 100px;
+		
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 35px;
+	text-align: center;
+		
+		
+		
+	color: #151414;
+		
+}
+
+#heading4{
+	position: absolute;
+	width: 291px;
+	height: 35px;
+	left: 770px;
+	top: 100px;
+			
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 35px;		
+	
+	color: #151414;
+			
+}
+
+#sub1{
+	position: absolute;
+	width: 177px;
+	height: 29px;
+	left: -40px;
+	top: 150.26px;
+
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 29px;
+	text-align: center;
+
+	color: #737272;
+
+}
+
+#sub2{
+	position: absolute;
+	width: 177px;
+	height: 29px;
+	left: 240px;
+	top: 150.26px;
+
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 29px;
+	text-align: center;
+
+	color: #737272;
+
+}
+
+#sub3{
+	position: absolute;
+	width: 177px;
+	height: 29px;
+	left: 530px;
+	top: 150.26px;
+
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 29px;
+	text-align: center;
+
+	color: #737272;
+
+}
+#sub4{
+	position: absolute;
+	width: 177px;
+	height: 29px;
+	left: 830px;
+	top: 150.26px;
+
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 29px;
+	text-align: center;
+
+	color: #737272;
+
+}
+		
+.gradient_koro{
+	background-image:
+		linear-gradient(90deg, #F15B22 -1.45%, rgba(241, 91, 34, 0) 98.55%),
+		url(../watch.png);	
+	position: absolute;
+	width: 1140px;
+	height: 300px;
+	left: 230px;
+	top: 2222.26px;
+
+	border-radius: 8px;
+}
+
+.info{
+	position: absolute;
+width: 459px;
+height: 94px;
+left: 294px;
+top: 2281.26px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+
+color: #FFFFFF;
+
+}
+
+.button2{
+position: absolute;
+width: 160px;
+height: 64px;
+left: 294px;
+top: 2399.26px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+
+color: #F15B22;
+
+
+border:none;
+background: #FFFFFF;
+border-radius: 5px;
+}
+footer{
+	position: absolute;
+	width: 100%;
+	height: 577px;
+	left: 0px;
+	top: 2652.26px;
+	background: #151414;
+	margin-top: 400px;
+}
+
+.footer{
+	display:flex;
+	gap: 331px;
+}
+
+.about{
+	width: 485px;
+	height: 317px;
+	margin-top: 130px;
+	margin-left: 230px;
+}
+.about_title{
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 45px;
+	
+	color: #F8F8F8;
+
+}
+
+.about_info{
+	padding-top: 16px;
+	padding-bottom: 32px;
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+
+	color: #FFFFFF;
+
+}
+
+.icon_container{
+	display: flex;
+	
+	gap: 17px;
+	width: 175px;
+	height: 46px;
+	
+}
+
+#fb{
+	background-image: url(../fb.png);
+	width: 47px;
+	height: 46px;	
+}
+
+#twit{
+	background-image: url(../twitter.png);
+	width: 47px;
+	height: 46px;
+}
+
+#yt{
+	background-image: url(../youtube.png);
+	width: 46px;
+	height: 46px;
+
+}
+
+.form{
+	width: 325px;
+	height: 250px;
+	margin-top: 130px;
+	
+
+}
+
+.form_title{
+	margin-bottom: 31px;
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 25px;
+
+	color: #FFFFFF;
+
+}
+
+
+input::placeholder{
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	color: #F3F3F3;
+	
+}
+
+.inputs{
+	height: 64px;
+	width: 325px;
+	
+	background-color: #151414;
+	padding-left: 21px;
+	
+	border-radius: 8px;
+	border-style: solid;
+  	border-width: 1px;
+	border-color: #FFFFFF;
+}
+
+input{
+	margin-bottom: 30.26px;
+}
+
+.s_button{
+	width: 170.11px;
+	height: 64px;
+	border-radius: 8px;
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+
+	color: #F15B22;
+
+}
+
+/*I have added a section after learning properly, to try  "flex" properly */
+.motivation{
+	width: 1140px;
+	height: 300px;
+	margin-top: 1800px;
+	margin-left: 230px;
+	border-color: #737272;
+	border-radius: 8px;
+	background-color:#F7F7F7
+	
+}
+.quotes_container{
+	display: flex;
+	padding-top: 30px;
+	padding-left: 10px;;
+	gap: 8px;
+}
+
+.quote_topic{
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 35px;
+	
+	color: #151414;
+
+}
+
+.quote_description{
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 29px;
+
+	color: #737272;
+
+}
+
+.quotes_title{
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 47px;
+	text-align: center;
+
+	color: #151414;
+
+}
